@@ -7,7 +7,7 @@ To build Torchvision from source:
 4. ``` export FORCE_CUDA=1 ``` # Only for devices with CUDA
 5. ``` MAX_JOBS=1 python setup.py install ``` # MAX_JOBS=1 to reduce parallel computing and potential crash on Jetson
 
-Potential problems you could face:\
+Potential problems you could face: \
 1. Permission denied, fix: ```MAX_JOBS=1 python setup.py install --user```
 
 [1]: https://docs.nvidia.com/deeplearning/frameworks/install-pytorch-jetson-platform/
